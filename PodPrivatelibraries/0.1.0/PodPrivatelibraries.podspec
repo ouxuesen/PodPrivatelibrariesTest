@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PodPrivatelibraries/Classes/**/*'
+  s.source_files = 'PodPrivatelibraries/Classes/**/*.{h,m}'
  s.resource_bundles = {
      'MyPodBundle' => ['PodPrivatelibraries/Classes/**/*.xib']
  }  
